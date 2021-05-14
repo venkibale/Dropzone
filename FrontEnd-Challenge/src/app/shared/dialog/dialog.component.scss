@@ -1,0 +1,74 @@
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: contain;
+  width: 50px;
+  height: 50px;
+
+}
+
+button{
+margin-left: 10px;
+}
+
+.small-img{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+p{
+  display: inline-block
+}
+
+.center-button{
+  width: 300px;
+  height: 300px;
+  display: grid;
+}
+
+.image{
+
+background-color: aliceblue;
+  height: 20em;
+
+}
+
+
+
+a {
+  text-decoration: none !important;
+
+
+}
+
+h2{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+
+.footer{
+  margin-left:250px !important;
+  cursor: pointer;
+  display: inline-block;
+  margin-left:150px;
+}
+
+::ng-deep .mat-dialog-container{
+  padding: 0px;
+}
+
+circle{
+  margin: 10px 20px 10px 10px;
+}
+.cropper .move
+{
+  width: 100%;
+  cursor: move;
+  border: 2px solid red !important;
+}

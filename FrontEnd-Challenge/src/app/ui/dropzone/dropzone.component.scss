@@ -1,0 +1,107 @@
+.dropzone {
+
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 70px;
+
+
+  input {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  label {
+    color: white;
+    width: 183px;
+    height: 44px;
+    border-radius: 21.5px;
+    background-color: #db202f;
+    padding: 8px 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #38424c;
+    display: flex;
+    justify-content: end;
+  }
+  span{
+    float:left
+  }
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: contain;
+  width: 40em;
+  height: 40em;
+  padding:  50px;
+  margin-left: 30%
+}
+
+.small-img{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+h3 {
+  margin: 0 0 0;
+}
+
+a{
+text-decoration: none !important;
+
+}
+.card-header{
+  a{
+    display: flex;
+    margin-top: 22px;
+  }
+}
+
+h2{
+
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+.card{
+  width: 50%;
+  margin-left: 290px;
+  text-align: center;
+
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.card-header, .card-footer{
+  background-color: rgba(0,0,0,0)
+}
+  .card-header h2{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float : left;
+  }
+
+.card-body{
+  background-color: rgba(0,0,0,.03);
+  border: dashed 1px #979797;
+  margin: 20px 20px 20px 20px;
+}
